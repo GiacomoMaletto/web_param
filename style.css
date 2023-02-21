@@ -1,7 +1,5 @@
-body {
-    margin: 0;
-}
+* { margin:0; padding:0; }
 
-#screen {
-    background: #204060;
-}
+html, body { width:100%; height:100%; }
+
+canvas { display:block; }
