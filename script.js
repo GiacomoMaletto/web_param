@@ -7,6 +7,7 @@ function resizeCanvas() {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
 
+    context.strokeStyle = "#ff0000";
     context.rect(20, 20, 150, 100);
     context.stroke();
 }
