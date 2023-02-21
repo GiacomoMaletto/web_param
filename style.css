@@ -1,5 +1,16 @@
-* { margin:0; padding:0; }
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+}
 
-html, body { width:100%; height:90%; overflow:hidden !important; }
+.drawing-area {
+    box-shadow: 0 0 6px 0 #999;
+}
 
-canvas { display:block; }
+.clear-button {
+    margin: 2em;
+    font-size: 16px;
+}
